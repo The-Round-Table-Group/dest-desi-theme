@@ -1,2 +1,2 @@
-jQuery(document).ready((function(){new countdown({target:".countdown",dayWord:" days",hourWord:" hours",minWord:" mins",secWord:" seconds"})}));
+jQuery(document).ready((function(){new countdown({target:".countdown",dayWord:" DAYS",hourWord:" HOURS",minWord:" MINUTES",secWord:" SECONDS"})}));
 //# sourceMappingURL=site-dist.js.map

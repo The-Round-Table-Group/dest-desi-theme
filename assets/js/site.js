@@ -6,10 +6,10 @@
         */
         const launchCountdown = new countdown({
             target: '.countdown',
-            dayWord: ' days',
-            hourWord: ' hours',
-            minWord: ' mins',
-            secWord: ' seconds'
+            dayWord: ' DAYS',
+            hourWord: ' HOURS',
+            minWord: ' MINUTES',
+            secWord: ' SECONDS'
         });
 
         /**
