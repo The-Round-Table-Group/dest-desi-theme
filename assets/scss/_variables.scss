@@ -1,0 +1,30 @@
+// Theme Colors
+$white: #FFF;
+$black: #000;
+$light-blue: #1499F1;
+$light-blue-alt: #008AC3;
+$seafoam: #2D8BA8;
+$gradient: linear-gradient(to right bottom, #2b4c7e, #2d5d97);
+
+// Primary background/foreground colors
+$background-blue: #0A192F;
+$foreground-blue: #172A46;
+
+// Text colors
+$primary-text-color: #172A46;
+$secondary-text-color: #172A46;
+
+// Fonts
+$gabarito: 'Gabarito', sans-serif;
+
+// Weights
+$regular: 400;
+$semibold: 600;
+$bold: 700;
+
+// Consistency utilities
+$radius-small: 7px;
+$radius-medium: 12px;
+$radius-large: 20px;
+$circle: 50%;
+$transition: 0.2s ease-out;

@@ -1,0 +1,49 @@
+{% extends 'base.twig' %}
+
+{% block content %}
+<section class="content-block">
+    <div class="countdown-wrapper">
+        <div>
+            <h3>February 20, 2024</h3>
+            <div class="countdown" data-date="20-2-2024" data-time="12:00">
+                <div class="day"><span class="num"></span><span class="word"></span></div>
+                <div class="hour"><span class="num"></span><span class="word"></span></div>
+                <div class="min"><span class="num"></span><span class="word"></span></div>
+                <div class="sec"><span class="num"></span><span class="word"></span></div>
+            </div>
+        </div>
+        <div>
+            <h3>Stay Up To Date</h3>
+            <form action="" method="">
+                <input type="text" placeholder="Enter your email" />
+                <button type="submit">Submit</button>
+            </form>
+
+            <div class="social-row">
+                <a class="social-row--link" href="{{ options.facebook }}">
+                    <span class="fab fa-facebook-f"></span>
+                </a>
+
+                <a class="social-row--link" href="{{ options.instagram }}">
+                    <span class="fab fa-instagram"></span>
+                </a>
+
+                <a class="social-row--link" href="{{ options.twitter }}">
+                    <span class="fab fa-twitter"></span>
+                </a>
+
+                <a class="social-row--link" href="{{ options.pinterest }}">
+                    <span class="fab fa-pinterest"></span>
+                </a>
+
+                <a class="social-row--link" href="{{ options.tiktok }}">
+                    <span class="fab fa-tiktok"></span>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+    <p style="text-align: center; max-width: 65rem; margin: 5rem auto 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro itaque accusamus neque, nihil aperiam eveniet officia hic sequi. Deserunt officiis aperiam quo ad eaque? Ut velit corporis perspiciatis reprehenderit officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro itaque accusamus neque, nihil aperiam eveniet officia hic sequi. Deserunt officiis aperiam quo ad eaque? Ut velit corporis.</p>
+</section>
+{% endblock %}
