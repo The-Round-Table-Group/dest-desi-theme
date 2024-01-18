@@ -28,3 +28,16 @@ $radius-medium: 12px;
 $radius-large: 20px;
 $circle: 50%;
 $transition: 0.2s ease-out;
+
+// reveal animation
+@keyframes reveal {
+    0% {
+        transform: translate(0,130%);
+    }
+
+    100% {
+        transform: translate(0,0);
+    }
+}
+
+$reveal: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1);

@@ -1,5 +1,5 @@
 .site-header {
-    padding: 7rem 0;
+    padding: 7rem 1.2rem;
     height: 40vh;
 
     h1 {
@@ -21,17 +21,7 @@
     }
 
     .first {
-        animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1);
-    }
-}
-
-@keyframes reveal {
-    0% {
-        transform: translate(0,130%);
-    }
-
-    100% {
-        transform: translate(0,0);
+        animation: $reveal;
     }
 }
 
@@ -102,9 +92,18 @@
 .mailing-list {
     position: relative;
     min-height: 35rem;
-    padding: 7.5rem 1.2rem;
+    padding: 4rem 1.2rem;
+    text-align: center;
+
+    @include mq(lg) {
+        padding: 7.5rem 1.2rem;
+    }
 
     h2 {
+        text-transform: uppercase;
+    }
+
+    .aside-header {
         display: none;
         position: absolute;
         top: 50%;
@@ -112,7 +111,6 @@
         transform: translateY(-50%) rotate(-90deg);
         margin: 0;
         color: rgba($background-blue, 0.25);
-        text-transform: uppercase;
         @include mq(lg) { display: block; }
     }
 
@@ -122,7 +120,7 @@
         text-align: center;
 
         p {
-            margin-top: 0;
+            margin-top: 2.75rem;
             margin-bottom: 2rem;
             font-size: fluid-text(414px, 20px, 1024px, 24px);
             font-weight: bold;
@@ -161,4 +159,14 @@
             border-radius: unset;
         }
     }
+}
+
+.social-container {
+    margin: 3rem auto;
+    text-align: center;
+
+    h2 {
+        text-transform: uppercase;
+    }
+
 }

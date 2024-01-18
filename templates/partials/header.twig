@@ -18,9 +18,10 @@
 
 {# first call to action - GET NOTIFIED #}
 <div class="mailing-list">
-    <h2>Stay Up To Date</h2>
+    <h2 class="aside-header">Stay Up To Date</h2>
+    <h2>Join Our Mailing List</h2>
     <div class="mailing-list__sign-up">
-        <p>Join our mailing list and be the first to know about Contests, Giveaways, and Events in the Desi Community.</p>
+        <p>Be the first to know about Contests, Giveaways, and Events in the Desi Community.</p>
         <form action="" method="">
             <input type="text" placeholder="Email" />
             <button type="submit">Sign Up</button>
@@ -29,51 +30,52 @@
 </div>
 
 {# second call to action - GET OUR MARKETING KIT #}
-<div class="marketing-kit"></div>
+<div class="social-container">
+    <h2>Follow Us!</h2>
+    <div class="social-row">
+        <a
+            class="social-row--link"
+            href="{{ options.facebook }}"
+            target="_blank"
+            rel="noopener"
+        >
+            <span class="fab fa-facebook-f"></span>
+        </a>
 
-{# <div class="social-row">
-    <a
-        class="social-row--link"
-        href="{{ options.facebook }}"
-        target="_blank"
-        rel="noopener"
-    >
-        <span class="fab fa-facebook-f"></span>
-    </a>
+        <a
+            class="social-row--link"
+            href="{{ options.instagram }}"
+            target="_blank"
+            rel="noopener"
+        >
+            <span class="fab fa-instagram"></span>
+        </a>
 
-    <a
-        class="social-row--link"
-        href="{{ options.instagram }}"
-        target="_blank"
-        rel="noopener"
-    >
-        <span class="fab fa-instagram"></span>
-    </a>
+        <a
+            class="social-row--link"
+            href="{{ options.twitter }}"
+            target="_blank"
+            rel="noopener"
+        >
+            <span class="fab fa-twitter"></span>
+        </a>
 
-    <a
-        class="social-row--link"
-        href="{{ options.twitter }}"
-        target="_blank"
-        rel="noopener"
-    >
-        <span class="fab fa-twitter"></span>
-    </a>
+        <a
+            class="social-row--link"
+            href="{{ options.pinterest }}"
+            target="_blank"
+            rel="noopener"
+        >
+            <span class="fab fa-pinterest"></span>
+        </a>
 
-    <a
-        class="social-row--link"
-        href="{{ options.pinterest }}"
-        target="_blank"
-        rel="noopener"
-    >
-        <span class="fab fa-pinterest"></span>
-    </a>
-
-    <a
-        class="social-row--link"
-        href="{{ options.tiktok }}"
-        target="_blank"
-        rel="noopener"
-    >
-        <span class="fab fa-tiktok"></span>
-    </a>
-</div> #}
+        <a
+            class="social-row--link"
+            href="{{ options.tiktok }}"
+            target="_blank"
+            rel="noopener"
+        >
+            <span class="fab fa-tiktok"></span>
+        </a>
+    </div>
+</div>
