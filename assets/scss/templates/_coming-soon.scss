@@ -91,16 +91,18 @@
 
 .mailing-list {
     position: relative;
-    min-height: 35rem;
     padding: 4rem 1.2rem;
     text-align: center;
 
     @include mq(lg) {
         padding: 7.5rem 1.2rem;
+        min-height: 35rem;
     }
 
     h2 {
         text-transform: uppercase;
+        margin-top: 0;
+        @include mq(lg) { margin-top: 2.75rem; }
     }
 
     .aside-header {
@@ -120,10 +122,12 @@
         text-align: center;
 
         p {
-            margin-top: 2.75rem;
+            margin-top: 1rem;
             margin-bottom: 2rem;
             font-size: fluid-text(414px, 20px, 1024px, 24px);
             font-weight: bold;
+
+            @include mq(lg) { margin-top: 2.75rem; }
         }
     }
 
@@ -136,9 +140,9 @@
         max-width: 30rem;
         width: 100%;
         margin: 0 auto 2rem;
-        padding: 1.25rem 1.5rem;
+        padding: 1rem 1.25rem;
         font-family: $gabarito;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     button {
@@ -167,6 +171,82 @@
 
     h2 {
         text-transform: uppercase;
+        padding-bottom: 1.75rem;
+
+        @include mq(600px) {
+            padding-bottom: 3rem;
+        }
     }
 
+    .social-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 28rem;
+        margin: 0 auto;
+        padding: 0 1.2rem;
+        text-align: inherit;
+
+        @include mq(600px) {
+            max-width: 40rem;
+        }
+
+        &--link {
+            width: 2.75rem;
+            height: 2.75rem;
+            border: 2px solid $background-blue;
+            border-radius: $circle;
+            flex-shrink: 0;
+
+            @include mq(600px) {
+                width: 5rem;
+                height: 5rem;
+                border: 3px solid $background-blue;
+            }
+
+            span {
+                display: block;
+                margin: 0.7rem auto 0;
+                font-size: 1.2rem;
+                text-align: center;
+                transition: $transition;
+
+                @include mq(600px) {
+                    font-size: 1.75rem;
+                    margin: 1.5rem auto 0;
+                }
+            }
+
+            &:hover {
+                background-color: $background-blue;
+
+                span {
+                    color: $white;
+                    transition: $transition;
+                }
+            }
+        }
+    }
+}
+
+.attribution {
+    margin: 0 auto;
+    max-width: 40rem;
+    margin-top: 3rem;
+    margin-bottom: 0;
+    text-align: center;
+
+    p, a {
+        font-size: 1.25rem;
+    }
+
+    .inline-link {
+        font-weight: $semibold;
+        white-space: nowrap;
+
+        &:hover {
+            text-decoration: underline;
+            text-underline-offset: 5px;
+        }
+    }
 }
