@@ -1,21 +1,14 @@
 // Theme colors
 $white: #FFF;
 $black: #000;
-$light-blue: #1499F1;
-$light-blue-alt: #008AC3;
-$seafoam: #2D8BA8;
-$gradient: linear-gradient(to right bottom, #2b4c7e, #2d5d97);
-
-// Primary background/foreground colors
-$background-blue: #0A192F;
-$foreground-blue: #172A46;
-
-// Text colors
-$primary-text-color: #172A46;
-$secondary-text-color: #172A46;
+$teal: #2DA58A;
+$blue: #1B4B7E;
+$brown: #C5844D;
+$gradient: linear-gradient(to right, $teal, $blue);
 
 // Fonts
-$gabarito: 'Gabarito', sans-serif;
+$tungsten: 'TungstenRegular', sans-serif;
+$oswald: 'Oswald', sans-serif;
 
 // Weights
 $regular: 400;
@@ -28,16 +21,3 @@ $radius-medium: 12px;
 $radius-large: 20px;
 $circle: 50%;
 $transition: 0.2s ease-out;
-
-// reveal animation
-@keyframes reveal {
-    0% {
-        transform: translate(0,130%);
-    }
-
-    100% {
-        transform: translate(0,0);
-    }
-}
-
-$reveal: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1);

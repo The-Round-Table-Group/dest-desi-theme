@@ -1,18 +1,18 @@
 <?php
 
 $labels = [
-	'name'               => __( 'News Posts', 'kpp' ),
-	'singular_name'      => __( 'News', 'kpp' ),
-	'add_new'            => _x( 'Add News Post', 'kpp', ),
-	'add_new_item'       => __( 'Add News Post', 'kpp' ),
-	'edit_item'          => __( 'Edit News Post', 'kpp' ),
-	'new_item'           => __( 'New News Post', 'kpp' ),
-	'view_item'          => __( 'View News Post', 'kpp' ),
-	'search_items'       => __( 'Search News Posts', 'kpp' ),
-	'not_found'          => __( 'No News Posts found', 'kpp' ),
-	'not_found_in_trash' => __( 'No News Posts found in Trash', 'kpp' ),
-	'parent_item_colon'  => __( 'Parent News Post:', 'kpp' ),
-	'menu_name'          => __( 'News Posts', 'kpp' ),
+	'name'               => __( 'News Posts', 'skv' ),
+	'singular_name'      => __( 'News', 'skv' ),
+	'add_new'            => _x( 'Add News Post', 'skv', ),
+	'add_new_item'       => __( 'Add News Post', 'skv' ),
+	'edit_item'          => __( 'Edit News Post', 'skv' ),
+	'new_item'           => __( 'New News Post', 'skv' ),
+	'view_item'          => __( 'View News Post', 'skv' ),
+	'search_items'       => __( 'Search News Posts', 'skv' ),
+	'not_found'          => __( 'No News Posts found', 'skv' ),
+	'not_found_in_trash' => __( 'No News Posts found in Trash', 'skv' ),
+	'parent_item_colon'  => __( 'Parent News Post:', 'skv' ),
+	'menu_name'          => __( 'News Posts', 'skv' ),
 ];
 
 $args = [
@@ -39,16 +39,16 @@ $args = [
 register_post_type( 'news', $args );
 
 $tax_labels = [
-	'name' 				=> _x( 'News Types', 'kpp' ),
-	'singular_name' 	=> _x( 'News Type', 'kpp' ),
-	'search_items' 		=> __( 'Search News Types', 'kpp' ),
-	'all_items' 		=> __( 'All News Types', 'kpp' ),
-	'edit_item' 		=> __( 'Edit News Type', 'kpp' ),
-	'update_item' 		=> __( 'Update News Type', 'kpp' ),
-	'add_new_item' 		=> __( 'Add News Type', 'kpp' ),
-	'new_item_name' 	=> __( 'Create News Type', 'kpp' ),
-	'menu_name' 		=> __( 'News Types', 'kpp' ),
-	'parent_item'		=> __( 'Parent News Type:', 'kpp' ),
+	'name' 				=> _x( 'News Types', 'skv' ),
+	'singular_name' 	=> _x( 'News Type', 'skv' ),
+	'search_items' 		=> __( 'Search News Types', 'skv' ),
+	'all_items' 		=> __( 'All News Types', 'skv' ),
+	'edit_item' 		=> __( 'Edit News Type', 'skv' ),
+	'update_item' 		=> __( 'Update News Type', 'skv' ),
+	'add_new_item' 		=> __( 'Add News Type', 'skv' ),
+	'new_item_name' 	=> __( 'Create News Type', 'skv' ),
+	'menu_name' 		=> __( 'News Types', 'skv' ),
+	'parent_item'		=> __( 'Parent News Type:', 'skv' ),
 ];
 
 $tax_args = [

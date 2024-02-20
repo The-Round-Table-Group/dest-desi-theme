@@ -1,10 +1,10 @@
 // core font setup
 a, p, span, address, table, td, th, tr,
 small, time, ol, ul, li, button, input {
-	font-family: $gabarito;
+	font-family: $oswald;
 	font-size: 1rem;
 	font-weight: $regular;
-	color: $primary-text-color;
+	color: $blue;
 }
 
 small { font-size: 0.875rem; }
@@ -42,10 +42,10 @@ h5, .h5,
 h6, .h6 {
 	margin-top: 2.15rem;
 	margin-bottom: 1.2rem;
-	font-family: $gabarito;
+	font-family: $tungsten;
 	font-weight: $bold;
 	line-height: 1.2;
-	color: $primary-text-color;
+	color: $blue;
 }
 
 h1, .h1 { font-size: fluid-text(414px, 42px, 860px, 56px); }

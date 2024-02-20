@@ -10,7 +10,7 @@ Timber\Timber::init();
 Timber::$locations = __DIR__ . '/templates';
 
 // create a new site class and extend the Core Site class from Timber
-class DesiSite extends Timber\Site {
+class SanskarSite extends Timber\Site {
 
 	function __construct() {
 		// Action Hooks //
@@ -132,7 +132,7 @@ class DesiSite extends Timber\Site {
 }
 
 // create a new instance of our site class
-new DesiSite();
+new SanskarSite();
 
 // move our ACF Options Page below the Dashboard tab
 function custom_menu_order( $menu_ord ) {
